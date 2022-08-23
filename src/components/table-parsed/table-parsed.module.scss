@@ -1,0 +1,30 @@
+.TableWrap {
+  margin: 10px 0;
+}
+
+.Title {
+  font-size: 16px;
+  color: #748DA6;
+  font-weight: 500;
+}
+
+.TitleWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.DownloadWrap {
+  color: #748DA6;
+  &:hover {
+    color: #316B83;
+  }
+}
+
+.DownloadText {
+  font-size: 14px;
+}
+
+.DownloadIcon {
+  font-size: 18px;
+}

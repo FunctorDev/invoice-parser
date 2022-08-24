@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 import moment from 'moment';
 
-export const getRamdomTableData = () => {
+export const getRandomTableData = () => {
   const total = Math.random() * (8 - 4) + 4;
   let data = [];
   for (let i = 0; i < total; i++) {

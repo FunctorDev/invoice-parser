@@ -1,13 +1,13 @@
 import React from 'react';
 import {Table} from "antd";
-import {getCSVName, getRamdomTableData} from "../../helpers/get-ramdom-table-data";
+import {getCSVName, getRandomTableData} from "../../helpers/get-random-table-data";
 import moment from 'moment';
 import { CSVLink } from "react-csv";
 import {DownloadOutlined} from "@ant-design/icons";
 import classes from "./table-parsed.module.scss";
 
 const TableParsed = ({fileName}) => {
-  const data = getRamdomTableData();
+  const data = getRandomTableData();
   const headers = [
     { label: "Date", key: "date" },
     { label: "Total", key: "total" },

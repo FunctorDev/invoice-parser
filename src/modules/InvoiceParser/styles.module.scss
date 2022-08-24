@@ -1,0 +1,58 @@
+.PageWrap {
+  background: #D3DEDC;
+  min-height: 100vh;
+}
+
+.UploadWrapper {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+.Title {
+  text-align: center;
+  font-size: 30px;
+  color: #748DA6;
+  font-weight: 500;
+}
+
+.ErrorTitleWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ErrorTitle {
+  font-size: 16px;
+  color: #EB1D36;
+  font-weight: 500;
+}
+
+.DownloadWrap {
+  color: #748DA6;
+  cursor: not-allowed;
+
+  &:hover {
+    color: #316B83;
+  }
+}
+
+.DownloadText {
+  font-size: 14px;
+}
+
+.DownloadIcon {
+  font-size: 18px;
+}
+
+.ErrorText {
+  text-align: center;
+  font-size: 15px;
+  color: #6D8299;
+  margin-bottom: 20px;
+}
+
+.Parsed {
+  padding: 0 20px 20px;
+}

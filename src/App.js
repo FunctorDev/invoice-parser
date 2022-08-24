@@ -1,12 +1,12 @@
 import './App.css';
 import 'antd/dist/antd.css';
 import {BrowserRouter} from "react-router-dom";
-import Pages from "./pages";
+import Root from "./bootstrap/Root";
 
 function App() {
   return (
     <BrowserRouter>
-      <Pages />
+      <Root />
     </BrowserRouter>
   );
 }
